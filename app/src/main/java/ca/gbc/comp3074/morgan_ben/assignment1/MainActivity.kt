@@ -8,6 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import android.content.Intent
 
 class MainActivity : AppCompatActivity() {
 
@@ -32,6 +33,13 @@ class MainActivity : AppCompatActivity() {
         val overtimePayText = findViewById<TextView>(R.id.overtimePayText)
         val totalPayText = findViewById<TextView>(R.id.totalPayText)
         val taxText = findViewById<TextView>(R.id.taxText)
+
+        val aboutButton = findViewById<Button>(R.id.aboutButton)
+
+        aboutButton.setOnClickListener {
+            val intent = Intent(this, AboutActivity::class.java)
+            startActivity(intent)
+        }
 
         calculateButton.setOnClickListener {
             val hours = hoursInput.text.toString().toDoubleOrNull()
