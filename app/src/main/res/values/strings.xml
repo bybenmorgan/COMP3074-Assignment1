@@ -1,3 +1,4 @@
+
 <resources>
     <string name="app_name">Assignment1</string>
     <string name="calculator_title">Pay Calculator</string>
@@ -10,4 +11,12 @@
     <string name="total_initial">Total pay: $0.00</string>
     <string name="tax_initial">Tax: $0.00</string>
     <string name="about">About</string>
+    <string name="hours_error">Enter valid hours (0 or more).</string>
+    <string name="hourly_rate_error">Enter a valid hourly rate (0 or more).</string>
+    <string name="tax_rate_error">Enter a tax rate from 0 to 100.</string>
+
+    <string name="pay_result">Regular pay: $%1$.2f</string>
+    <string name="overtime_result">Overtime pay: $%1$.2f</string>
+    <string name="total_result">Total pay: $%1$.2f</string>
+    <string name="tax_result">Tax: $%1$.2f</string>
 </resources>
