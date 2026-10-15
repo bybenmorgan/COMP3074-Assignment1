@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Assignment1</string>
+    <string name="calculator_title">Pay Calculator</string>
+    <string name="hours_hint">Hours worked</string>
+    <string name="hourly_rate_hint">Hourly rate ($)</string>
+    <string name="tax_rate_hint">Tax rate (%)</string>
+    <string name="calculate">Calculate</string>
+    <string name="pay_initial">Regular pay: $0.00</string>
+    <string name="overtime_initial">Overtime pay: $0.00</string>
+    <string name="total_initial">Total pay: $0.00</string>
+    <string name="tax_initial">Tax: $0.00</string>
+    <string name="about">About</string>
 </resources>
